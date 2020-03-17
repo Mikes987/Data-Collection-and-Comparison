@@ -19,3 +19,4 @@ The goals of the toolset were the following:
 - Repeat the step above for a mass of products stored in different files each by selecting a directory
 
 ## Download XML Files
+As mentioned, all buttons are inserted the first data sheet. On the second data sheet, one can find names of products in column a and their associated addresses in column B. The button for XML file download opens a userform that lets the user look for a product and download its XML file. Before the userform appears, all product names from column A will be stored in an array and this array will hand over its content into the combobox of the userform.
