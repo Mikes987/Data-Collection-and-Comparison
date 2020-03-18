@@ -33,6 +33,9 @@ If the xml file is not too big, it can be parsed with the built in XML import fu
 ## Apply Mass of Data and Mass Comparison
 This procedure follows creating data file and doing comparison. However, instead of choosing a single XML file, one can choose an entire directory and loop through all XML files.
 
+## Check with Primary Data Set
+We need to compare the newly created protocol with another data set, the so called primary data set that can be loaded as an Excel file. Mismatches will be colored and another column will be used to print these mismatches.
+
 ## Prepare Import
 All the data collected and analyzed with the procedures above have to be imported into database. All data can be imported via Excel files but attributes, default values and characteristics have to be aranged into a certain structure. Furthermore, the shape of all cells that contains data have to be changed so that the data will be recognized by the database software.
 Multiple protocols are allowed to be loaded into one input file. So if an input file has been created and is still open and the user wants to load another protocol, all information will be stored additionally in that input file.
