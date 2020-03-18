@@ -26,3 +26,6 @@ The database that is used does not allow any kind of grouped filtering to remove
 
 ## Create Data file and do Comparison
 If the xml file is not too big, it can be parsed with the built in XML import function. Thus, this XML file can be loaded into a userform. Furthermore, the attribute list and another one called "DIM" will be loaded. All three are necessary for a successful data collection. The macro goes through the XML file and stores Data into a new file. This list contains attributes. Thes will be compared with the attribute list and certain components of attributes will be checked for a match. If there is no match then this attribute does not exist and a new ID will be created. The third list checks if dimensioning is needed. The color set of excel is used to make mismatches visible.
+
+## Apply Mass of Data and Mass Comparison
+This procedure follows creating data file and doing comparison. However, instead of choosing a single XML file, one can choose an entire directory and loop through all XML files.
