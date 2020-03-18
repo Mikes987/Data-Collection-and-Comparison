@@ -32,3 +32,6 @@ If the xml file is not too big, it can be parsed with the built in XML import fu
 
 ## Apply Mass of Data and Mass Comparison
 This procedure follows creating data file and doing comparison. However, instead of choosing a single XML file, one can choose an entire directory and loop through all XML files.
+
+## Prepare Import
+All the data collected and analyzed with the procedures above have to be imported into database. All data can be imported via Excel files but attributes, default values and characteristics have to be aranged into a certain structure. Furthermore, the shape of all cells that contains data have to be changed so that the data will be recognized by the database software.
