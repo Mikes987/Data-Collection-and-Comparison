@@ -35,3 +35,6 @@ This procedure follows creating data file and doing comparison. However, instead
 
 ## Prepare Import
 All the data collected and analyzed with the procedures above have to be imported into database. All data can be imported via Excel files but attributes, default values and characteristics have to be aranged into a certain structure. Furthermore, the shape of all cells that contains data have to be changed so that the data will be recognized by the database software.
+Multiple protocols are allowed to be loaded into one input file. So if an input file has been created and is still open and the user wants to load another protocol, all information will be stored additionally in that input file.
+
+## Prepare Mass Import
