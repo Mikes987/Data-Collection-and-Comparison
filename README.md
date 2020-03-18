@@ -18,6 +18,9 @@ The goals of the toolset were the following:
 - Prepare Import of missing data by positioning attributes, data description and default values within a new Excel file for a product
 - Repeat the step above for a mass of products stored in different files each by selecting a directory
 
+## Installation
+No specific installation required. However, all userforms and modules are to be imported into the same Excel data file.
+
 ## Download XML Files
 As mentioned, all buttons are inserted the first data sheet. On the second data sheet, one can find names of products in column a and their associated addresses in column B. The button for XML file download opens a userform that lets the user look for a product and download its XML file. Before the userform appears, all product names from column A will be stored in an array and this array will hand over its content into the combobox of the userform. When a product is selected, an object called ```MSXML2.DOMDocument``` will be created and the XML file will be downloaded. However, there will be no error, if this XML file does not exist but a file with zero kb will appear.
 
